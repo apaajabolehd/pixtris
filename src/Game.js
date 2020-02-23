@@ -24,7 +24,7 @@ export default class Game {
      */
     run() {
         let background = new PIXI.extras.TilingSprite(
-            PIXI.loader.resources.blocks.textures.background, 
+            PIXI.loader.resources['./assets/sprites.json'].textures.background, 
             this.app.renderer.width,
             this.app.renderer.height);
         this.app.stage.addChild(background);

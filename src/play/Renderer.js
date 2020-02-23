@@ -21,7 +21,7 @@ export default class Renderer extends PIXI.Container {
         this.rowsOffset = rowsOffset;
         this.blockSize = blockSize;
         
-        this.textures = PIXI.loader.resources.blocks.textures;
+        this.textures = PIXI.loader.resources['./assets/sprites.json'].textures;
         
         this.sprites = [];
         
